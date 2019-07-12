@@ -1,0 +1,7 @@
+{
+    "name": "powerbasetour",
+    "description": "This app does one little thing, and does it terrifically well.",
+    "buildpacks": [{
+        "url": "https://github.com/heroku/heroku-buildpack-static"
+    }]
+}
