@@ -2,19 +2,19 @@
 var tour = new Tour({
     steps: [
         {
-            element: "#top",
-            title: "Top Title of my step",
-            content: "Content of my step"
+            element: "#Firstly",
+            title: "Click on Events",
+            content: "The drop-down menu will allow you to find participants with a selection of options"
         },
         {
-            element: "#bottom",
-            title: "Bottom Title of my step",
-            content: "Content of my step",
+            element: "#Secondly",
+            title: "Find participants",
+            content: "Find participants using their Name, Email, Event Name, Event Dates or event through partipant group involvement",
         },
         {
-            element: "#top",
-            title: "Third Title of my Step 1, Page 2",
-            content: "Content of my step",
+            element: "#Lastly",
+            title: "Search and Action",
+            content: "Once the contact is seen, select the contact(s) and use the drop-down menu to take actions such as exporting participant, deleting participant or event updating multiple participants at once",
             path: "/page2.html"
         }
 

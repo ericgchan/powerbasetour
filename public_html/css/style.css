@@ -1,20 +1,22 @@
 #page1 {
-    background-image: url("/images/page1.png");
+    background-image: url("file:///Users/pujadahal/Desktop/find%20participants.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    color: red;
+    color:green;
 }
 #page2 {
-    background-image: url("/images/page2.png");
+    background-image: url("file:///Users/pujadahal/Desktop/Actions.png");
     background-size: 100%;
-    background-repeat: no-repeat;
-    color: pink;
+    background-repeat:no-repeat;
+    color:yellow;
 }
 .fifty {
-    height: 50vh;
+    height: 60vh;
 }
 #top {
     margin-left: 21%;
     margin-top: 3%;
 }
-#bottom {}
+#bottom {
+    height: 50vh;
+}
