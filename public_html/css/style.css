@@ -1,14 +1,14 @@
 #page1 {
-    background-image: url("/images/participants.png");
+    background-image: url("/images/page1.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    color:rgb(87, 0, 128);
+    color:yellow;
 }
 #page2 {
-    background-image: url("/images/actions.png");
+    background-image: url("/images/page2.png");
     background-size: 100%;
     background-repeat:no-repeat;
-    color:yellow;
+    color:green;
 }
 .fifty {
     height: 60vh;
