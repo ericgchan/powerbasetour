@@ -1,7 +1,6 @@
 // Instance the tour
 var tour = new Tour({
-    steps: [
-        {
+    steps: [{
             element: "#Firstly",
             title: "Click on Events",
             content: "The drop-down menu will allow you to find participants with a selection of options"

@@ -1,17 +1,17 @@
 #page1 {
-    background-image: url("");
+    background-image: url("/image/page1.png");
     background-size: 100%;
     background-repeat: no-repeat;
     color:green;
 }
 #page2 {
-    background-image: url("");
+    background-image: url("/images/page2.png");
     background-size: 100%;
     background-repeat:no-repeat;
     color:yellow;
 }
 .fifty {
-    height: 60vh;
+    height: 50vh;
 }
 #top {
     margin-left: 21%;
