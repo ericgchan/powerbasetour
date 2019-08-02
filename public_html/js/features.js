@@ -1,7 +1,6 @@
 // Instance the tour
 var tour = new Tour({
-    steps: [
-        {
+    steps: [{
             element: "#top",
             title: "Top Title of my step",
             content: "Content of my step"
@@ -21,7 +20,7 @@ var tour = new Tour({
     ],
     debug: true,
     framework: "bootstrap4",
-    backdrop: "true",
+    backdrop: "false",
     storage: false
 });
 

@@ -2,19 +2,21 @@
     background-image: url("/images/page1.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    color: red;
+    color: yellow;
 }
+
 #page2 {
     background-image: url("/images/page2.png");
     background-size: 100%;
     background-repeat: no-repeat;
     color: pink;
 }
+
 .fifty {
     height: 50vh;
 }
+
 #top {
     margin-left: 21%;
     margin-top: 3%;
 }
-#bottom {}
