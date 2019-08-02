@@ -2,21 +2,20 @@
 var tour = new Tour({
     steps: [{
             element: "#top",
-            title: "Top Title of my step",
-            content: "Content of my step"
+            title: "Events",
+            content: "On the drop-down menu, click on create Event to create a new event"
         },
         {
             element: "#bottom",
-            title: "Bottom Title of my step",
-            content: "Content of my step",
+            title: "Fill out the event details on the first page",
+            content: "Begin by filling out everything with an asterisk. You could make changes to your event details later.",
         },
         {
             element: "#top",
-            title: "Third Title of my Step 1, Page 2",
-            content: "Content of my step",
+            title: "Event Location",
+            content: "Finally, add the location of the event. Click save & done. Your event is now on the records and you could now add participants",
             path: "/page2.html"
         }
-
     ],
     debug: true,
     framework: "bootstrap4",

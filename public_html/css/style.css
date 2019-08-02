@@ -1,15 +1,21 @@
 #page1 {
-    background-image: url("/images/page1.png");
+    background-image: url("/images/one.png");
     background-size: 100%;
     background-repeat: no-repeat;
     color:red;
 }
 #page2 {
-    background-image: url("/images/page2.png");
+    background-image: url("/images/two.png");
     background-size: 100%;
     background-repeat:no-repeat;
     color:green;
 }
+#page3 {
+    background-image: url("/images/three.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    color:pink;
+
 .fifty {
     height: 60vh;
 }
