@@ -2,20 +2,23 @@
 var tour = new Tour({
     steps: [{
             element: "#top",
-            title: "Top Title of my step",
-            content: "Content of my step"
+            title: "How to Mass Edit Participant Statuses",
+            content: 'Click here to access "Events"'
         },
+
         {
-            element: "#bottom",
-            title: "Bottom Title of my step",
-            content: "Content of my step",
-        },
-        {
-            element: "#top",
-            title: "Third Title of my Step 1, Page 2",
-            content: "Content of my step",
+            element: "#top2",
+            title: "How to Mass Edit Participant Statuses",
+            content: 'Click on "Manage Events"',
             path: "/page2.html"
-        }
+        },
+
+        {
+            element: "#top3",
+            title: "How to Mass Edit Participant Statuses",
+            content: 'Search for your event, click on "Participants" and click on the relevant sub-category',
+            path: "/page3.html"
+        },
 
     ],
     debug: true,
