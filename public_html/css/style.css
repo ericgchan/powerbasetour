@@ -22,7 +22,12 @@
     background-repeat:no-repeat;
     color: blue;
 }    
-
+#page5 {
+    background-image: url("/images/five.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    color: brown;
+}
 .fifty {
     height: 60vh;
 }
