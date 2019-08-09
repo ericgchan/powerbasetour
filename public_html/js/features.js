@@ -1,21 +1,36 @@
 // Instance the tour
+// API reference: http://bootstraptour.com/api/
 var tour = new Tour({
     steps: [{
             element: "#top",
+<<<<<<< HEAD
             title: "How to Mass Edit Participant Statuses for an Event",
             content: 'Click here to access "Events"'
+=======
+            title: "Part 1:  How to Mass Edit Participant Statuses",
+            content: 'Click here to access "Events"',
+            path: "/index.html"
+>>>>>>> 564a8b938e5726c16ada729deefe69bcc18d5359
         },
 
         {
             element: "#top2",
+<<<<<<< HEAD
             title: "How to Mass Edit Participant Statuses for an Event",
+=======
+            title: "Part 2: How to Mass Edit Participant Statuses",
+>>>>>>> 564a8b938e5726c16ada729deefe69bcc18d5359
             content: 'Click on "Manage Events"',
             path: "/page2.html"
         },
 
         {
             element: "#top3",
+<<<<<<< HEAD
             title: "How to Mass Edit Participant Statuses for an Event",
+=======
+            title: "Part 3: How to Mass Edit Participant Statuses",
+>>>>>>> 564a8b938e5726c16ada729deefe69bcc18d5359
             content: 'Search for your event, click on "Participants" and click on the relevant sub-category',
             path: "/page3.html"
         },
@@ -25,7 +40,7 @@ var tour = new Tour({
     debug: true,
     framework: "bootstrap4",
     backdrop: "false",
-    storage: false
+    //storage: false  //THIS WILL RESTART THE TOUR ON EVERY PAGE LOAD (No MEMORY)
 });
 
 // Initialize the tour
@@ -33,3 +48,9 @@ var tour = new Tour({
 
 // Start the tour
 tour.start();
+
+// Check if the Tour has ended. Reset it so that future Tours will start
+if (tour.ended() == true) {
+    console.log('tour ended. status variable saved. need to reset it');
+    tour.restart();
+}
