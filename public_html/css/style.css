@@ -47,77 +47,57 @@
     color: rgb(23, 61, 27);
 }
 
-.fifty {
-    height: 5.5vh;
-}
-
-.sixty {
-    height: 8.5vh;
-}
-
-.sixtyone {
-    height: 45vh;
-}
-
-.sixtytwo {
-    height: 5vh;
-}
-
-.sixtythree {
-    height: 4vh;
-}
-
-.sixtyfour {
-    height: 32vh;
-}
-
-.sixtyfive {
-    height: 5vh;
-}
-
 #top {
     margin-left: 15.5%;
     margin-right: 78%;
     margin-top: 0%;
+    height: 5.5vh;
 }
 
 #top2 {
     margin-left: 15.75%;
     margin-right: 66%;
     margin-top: 15%;
+    height: 5.5vh;
 }
 
 #top3 {
     margin-left: 96%;
     margin-right: -12%;
     margin-top: 36%;
+    height: 8.5vh;
 }
 
 #top4 {
     margin-left: 6%;
     margin-right: -12%;
     margin-top: 39%;
+    height: 45vh;
 }
 
 #top5 {
     margin-left: 5%;
     margin-right: 68%;
     margin-top: 45%;
+    height: 5vh;
 }
 
 #top6 {
     margin-left: 69%;
     margin-right: 10%;
     margin-top: 37.5%;
+    height: 4vh;
 }
 
 #top7 {
     margin-left: 69%;
     margin-right: 10%;
     margin-top: 37%;
+    height: 32vh;
 }
 
 #bottom7 {
     margin-left: 6%;
     margin-right: 79%;
+    height: 5vh;
 }
