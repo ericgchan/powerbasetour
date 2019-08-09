@@ -19,8 +19,60 @@
     color: rgb(23, 61, 27);
 }
 
+#page4 {
+    background-image: url("/images/page4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(23, 61, 27);
+}
+
+#page5 {
+    background-image: url("/images/page5.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(23, 61, 27);
+}
+
+#page6 {
+    background-image: url("/images/page6.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(23, 61, 27);
+}
+
+#page7 {
+    background-image: url("/images/page7.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(23, 61, 27);
+}
+
 .fifty {
     height: 5.5vh;
+}
+
+.sixty {
+    height: 8.5vh;
+}
+
+.sixtyone {
+    height: 45vh;
+}
+
+.sixtytwo {
+    height: 5vh;
+}
+
+.sixtythree {
+    height: 4vh;
+}
+
+.sixtyfour {
+    height: 32vh;
+}
+
+.sixtyfive {
+    height: 5vh;
 }
 
 #top {
@@ -33,4 +85,39 @@
     margin-left: 15.75%;
     margin-right: 66%;
     margin-top: 15%;
+}
+
+#top3 {
+    margin-left: 96%;
+    margin-right: -12%;
+    margin-top: 36%;
+}
+
+#top4 {
+    margin-left: 6%;
+    margin-right: -12%;
+    margin-top: 39%;
+}
+
+#top5 {
+    margin-left: 5%;
+    margin-right: 68%;
+    margin-top: 45%;
+}
+
+#top6 {
+    margin-left: 69%;
+    margin-right: 10%;
+    margin-top: 37.5%;
+}
+
+#top7 {
+    margin-left: 69%;
+    margin-right: 10%;
+    margin-top: 37%;
+}
+
+#bottom7 {
+    margin-left: 6%;
+    margin-right: 79%;
 }
