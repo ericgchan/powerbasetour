@@ -1,6 +1,6 @@
 #page1 {
     background-image: url("/images/one.png");
-    background-size: 100%;
+    background-size: 90%;
     background-repeat: no-repeat;
     color:red;
 }
@@ -12,9 +12,16 @@
 }
 #page3 {
     background-image: url("/images/three.png");
-    background-size: 100%;
+    background-size: 70%;
     background-repeat:no-repeat;
     color:pink;
+}
+#page4 {
+    background-image: url("/images/four.png");
+    background-size:100%;
+    background-repeat:no-repeat;
+    color: blue;
+}    
 
 .fifty {
     height: 60vh;

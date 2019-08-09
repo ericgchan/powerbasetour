@@ -19,15 +19,21 @@ var tour = new Tour({
         },
         {
             element: "#top",
-            title: "Part 4 Title",
-            content: "Finally, add the location of the event. Click save & done. Your event is now on the records and you could now add participants",
+            title: "Part 4 Register Event Participant",
+            content: "Click on Events & Register Event Participants. Search for contact information and add their attendance to new event created. Click save & next to add the next participant.",
             path: "/page3.html"
+        },
+        {
+            element: "#top",
+            title: "Part 5 Event is now live!",
+            content: "Click dashboard to view you new event listing with all the participants.",
+            path: "/page4.html"
         }
     ],
     debug: true,
     framework: "bootstrap4",
-    backdrop: "true",
-    //storage: false  //THIS WILL RESTART THE TOUR ON EVERY PAGE LOAD (No MEMORY)
+    backdrop: "false",
+    //storage: false,  //THIS WILL RESTART THE TOUR ON EVERY PAGE LOAD (No MEMORY)
 });
 
 // Initialize the tour
