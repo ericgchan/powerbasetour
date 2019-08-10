@@ -1,6 +1,6 @@
 #page1 {
     background-image: url("/images/one.png");
-    background-size: 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
     color:red;
 }
@@ -28,13 +28,35 @@
     background-repeat: no-repeat;
     color: brown;
 }
-.fifty {
-    height: 60vh;
-}
+
 #top {
-    margin-left: 21%;
-    margin-top: 3%;
+    margin-left: 10%;
+    margin-top: 0%;
+    height: 5vh;
+    margin-right: 83%;
+
 }
-#bottom {
+#top2{
+    margin-left: -1%;
+    margin-top: 0%;
+    height: 100vh;
+    margin-right: 30%;
+}
+#top3{
+    margin-left: -8.5%;
+    margin-right: 70%;
+    margin-top: 0%;
+    height: 55vh;
+}
+#top4{
+    margin-left: -2%;
+    margin-right: 50%;
+    margin-top: 0%;
+    height: 115vh;
+}
+#top5{
+    margin-left: -4%;
+    margin-right: -15%;
+    margin-top:17%;
     height: 50vh;
 }
